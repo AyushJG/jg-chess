@@ -66,6 +66,7 @@ const Chessboard = () => {
     }
   }
   function dropPiece(e: React.MouseEvent) {
+    console.log({ e });
     if (activePiece) {
       activePiece = null;
     }
